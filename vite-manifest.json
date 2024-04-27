@@ -1,7 +1,7 @@
 {
-  "src/routes/+page.css": {
+  "src/routes/[[lang]]/+page.css": {
     "file": "_app/immutable/assets/_page-ecdc189e.css",
-    "src": "src/routes/+page.css"
+    "src": "src/routes/[[lang]]/+page.css"
   },
   "src/routes/+layout.ts": {
     "file": "_app/immutable/modules/pages/_layout.ts-ac92ff38.js",
@@ -13,20 +13,19 @@
     ]
   },
   ".svelte-kit/generated/nodes/1.js": {
-    "file": "_app/immutable/chunks/1-f73f54f8.js",
+    "file": "_app/immutable/chunks/1-3a13f779.js",
     "src": ".svelte-kit/generated/nodes/1.js",
     "isDynamicEntry": true,
     "imports": [
       "node_modules/@sveltejs/kit/src/runtime/components/error.svelte"
     ]
   },
-  "node_modules/@sveltejs/kit/src/runtime/components/error.svelte": {
-    "file": "_app/immutable/components/error.svelte-363f7bed.js",
-    "src": "node_modules/@sveltejs/kit/src/runtime/components/error.svelte",
-    "isEntry": true,
+  ".svelte-kit/generated/nodes/2.js": {
+    "file": "_app/immutable/chunks/2-51ca28a0.js",
+    "src": ".svelte-kit/generated/nodes/2.js",
+    "isDynamicEntry": true,
     "imports": [
-      "_index-52753674.js",
-      "_singletons-40dd9403.js"
+      "src/routes/[[lang]]/+page.svelte"
     ]
   },
   "src/lib/i18n/sk/index.ts": {
@@ -59,7 +58,7 @@
   "_index-87a3399c.js": {
     "file": "_app/immutable/chunks/index-87a3399c.js",
     "imports": [
-      "node_modules/@sveltejs/kit/src/runtime/components/layout.svelte"
+      "_index-52753674.js"
     ]
   },
   "src/lib/i18n/ru/index.ts": {
@@ -112,7 +111,8 @@
     "isEntry": true,
     "imports": [
       "_index-52753674.js",
-      "_singletons-40dd9403.js"
+      "_singletons-e35ff2b9.js",
+      "_preload-helper-41c905a7.js"
     ],
     "dynamicImports": [
       ".svelte-kit/generated/nodes/0.js",
@@ -120,12 +120,13 @@
       ".svelte-kit/generated/nodes/2.js"
     ]
   },
-  "src/routes/+page.svelte": {
-    "file": "_app/immutable/components/pages/_page.svelte-72ac682b.js",
-    "src": "src/routes/+page.svelte",
+  "src/routes/[[lang]]/+page.svelte": {
+    "file": "_app/immutable/components/pages/__lang__/_page.svelte-e239ca74.js",
+    "src": "src/routes/[[lang]]/+page.svelte",
     "isEntry": true,
     "imports": [
-      "_index-52753674.js"
+      "_index-52753674.js",
+      "_i18n-svelte-423cf38f.js"
     ],
     "css": [
       "_app/immutable/assets/_page-ecdc189e.css"
