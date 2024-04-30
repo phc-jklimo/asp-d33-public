@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /$
+Disallow: /_app/
+Sitemap: https://drienova33.sk/sitemap.xml
